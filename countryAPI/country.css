@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    transition: background-color 0.3s ease;
+
+}
+.dark-mode {
+    background-color: black;
+    color: white; /* Change text color to white */
+}
+#country{
+    margin: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+    /* background-color: #a3dae9; */
+    /* background-color: inherit; */
+}
+#countries{
+    border: 2px solid white;
+    box-shadow: 2px 3px 3px;
+    
+}
+#population, #region, #capital{
+    font-weight: 600;
+    font-size: medium;
+    font-family: 'Open Sans', sans-serif;
+}
+#serchit{
+    float: left;
+    padding: 5px;
+}
+#toggle{
+    float: right;
+    padding: 5px;
+}
+.searchbox{
+    background-color: inherit;
+    /* background-color: rgb(168, 168, 175); */
+    height: 30px;
+    margin: 10px;
+    width: auto;
+}
+#toggle {
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+#toggle.clicked {
+    background-color: black;
+}
